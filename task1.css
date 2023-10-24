@@ -1,0 +1,87 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+header
+{
+	background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),
+	 url('https://images.wallpapersden.com/image/download/watching-sunset-hd_bmZmaG6UmZqaraWkpJRmbmpnrWZmZ2U.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	font-family: sans-serif ;
+
+}
+nav
+{
+	padding-top: 30px;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: space-around;
+	text-align: center;
+	color: black;
+}
+.logo
+{
+	font-size: 2em;
+	letter-spacing: 2px;
+	color: whitesmoke;
+}
+.menu a
+{
+	color: whitesmoke;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 5px 30px;
+	margin-left: 5px;	
+}
+.menu a:hover
+{
+	border-bottom: #81212E solid 2px ;
+}
+.Register a{
+	text-decoration: none;
+	color:whitesmoke;
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: #81212E;
+	border-radius: 5px;
+}
+.Register a:hover
+{
+	color: #81212E;
+	background: whitesmoke;
+}
+section
+{
+	max-width: 650px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+	text-align: center;
+	color: whitesmoke;
+}
+span 
+{
+	letter-spacing: 5px;
+}
+section h1
+{
+	font-size: 45px;
+}
+section a
+{
+	text-decoration: none;
+	color: whitesmoke;
+	background: #81212E;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+section a:hover
+{
+	color: #81212E;
+	background: whitesmoke;
+}
